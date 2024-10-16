@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProductApplication.EditProductPage"
+             Title="EditProductPage">
+    <StackLayout Padding="10">
+        <Label Text="Edit Product" FontSize="Large" />
+
+        <Entry x:Name="ProductNameEntry" Placeholder="Product Name" />
+        <Entry x:Name="ProductNumberEntry" Placeholder="Product Number" />
+        <Entry x:Name="ColorEntry" Placeholder="Color" />
+        <Entry x:Name="StandardCostEntry" Placeholder="Standard Cost" Keyboard="Numeric" />
+        <Entry x:Name="ListPriceEntry" Placeholder="List Price" Keyboard="Numeric" />
+        <Entry x:Name="SizeEntry" Placeholder="Size" Keyboard="Numeric" />
+        <Entry x:Name="WeightEntry" Placeholder="Weight" Keyboard="Numeric" />
+
+        <Button Text="Update Product" Clicked="OnUpdateProductClicked" />
+        <Button Text="Remove Product" Clicked="OnRemoveProductClicked" BackgroundColor="Red" TextColor="White" />
+    </StackLayout>
+</ContentPage>
