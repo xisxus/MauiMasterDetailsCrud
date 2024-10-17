@@ -1,12 +1,13 @@
-
 # Maui Master-Details CRUD
 
-This project is a .NET MAUI (Multi-platform App UI) application that demonstrates a simple Master-Details CRUD (Create, Read, Update, Delete) operation. The app allows the user to manage a collection of data objects with the ability to add, edit, delete, and view details of each object.
+This project consists of a .NET MAUI application and a backend API, which together demonstrate a simple Master-Details CRUD (Create, Read, Update, Delete) operation. The app allows the user to manage a collection of data objects with the ability to add, edit, delete, and view details of each object.
 
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
+  - [Setting up the API](#setting-up-the-api)
+  - [Running the Application](#running-the-application)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
@@ -19,22 +20,28 @@ This project is a .NET MAUI (Multi-platform App UI) application that demonstrate
   - Edit existing items
   - Delete items
 - Cross-platform support (Windows, Android, iOS).
+- Backend API integration for data persistence.
 
 ## Technologies Used
 - **.NET MAUI**: Cross-platform framework for building native mobile and desktop apps with .NET.
+- **.NET 6 API**: Backend API for handling data operations.
 - **MVVM Pattern**: Model-View-ViewModel architecture for separating business logic from UI.
-- **SQLite**: Embedded database for data storage.
+- **SQLite**: Embedded database for local data storage in the MAUI app.
+- **Entity Framework Core**: ORM for database management in the API.
+- **SQL Server**: Database for backend API.
 
 ## Getting Started
 
 ### Prerequisites
 - [.NET SDK](https://dotnet.microsoft.com/download) version 6.0 or later.
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) with .NET MAUI workload installed.
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) with .NET MAUI and ASP.NET workloads installed.
+- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) for backend database.
 
-### Installation
-1. Clone the repository:
+### Setting up the API
+
+1. Clone the API repository:
    ```bash
-   git clone https://github.com/xisxus/MauiMasterDetailsCrud.git
+   git clone https://github.com/xisxus/MauiMasterDetailCrudAPI.git
    ```
 
 2. Navigate to the project directory:
