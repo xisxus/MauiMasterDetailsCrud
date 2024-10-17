@@ -33,19 +33,19 @@ This project is a .NET MAUI (Multi-platform App UI) application that demonstrate
 
 ### Installation
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/xisxus/MauiMasterDetailsCrud.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd MauiMasterDetailsCrud
-   \`\`\`
+   ```
 
 3. Open the solution file in Visual Studio:
-   \`\`\`bash
+   ```bash
    MauiMasterDetailsCrud.sln
-   \`\`\`
+   ```
 
 4. Restore dependencies and build the project.
 
