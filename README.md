@@ -61,7 +61,7 @@ This project consists of a .NET MAUI application and a backend API, which togeth
 2. Press \`F5\` to build and run the application.
 
 ## Screenshots
-Include screenshots of the app here to showcase the features.
+Null
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
